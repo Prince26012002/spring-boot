@@ -1,4 +1,4 @@
-package com.java.springBoot.componentScanner;
+package com.java.springBoot.componentConfiguration;
 
 import java.util.Set;
 
