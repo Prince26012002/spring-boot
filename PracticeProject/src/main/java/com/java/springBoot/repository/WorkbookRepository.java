@@ -1,5 +1,7 @@
 package com.java.springBoot.repository;
 
+import org.springframework.stereotype.Repository;
+
 import com.java.springBoot.annotation.MyCustomComponent;
 import com.java.springBoot.entity.Workbook;
 
@@ -8,6 +10,7 @@ import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
 
 @MyCustomComponent
+@Repository
 public class WorkbookRepository {
 
 	@PersistenceContext

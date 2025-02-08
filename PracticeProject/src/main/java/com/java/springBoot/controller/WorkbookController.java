@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.java.springBoot.annotation.MyCustomAutowired;
-import com.java.springBoot.annotation.MyCustomComponent;
 import com.java.springBoot.entity.Workbook;
 import com.java.springBoot.repository.WorkbookRepository;
 
@@ -19,7 +18,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @RestController
-@MyCustomComponent
+//@MyCustomComponent
 @RequestMapping("/workbook")
 public class WorkbookController {
 
