@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.java.springBoot.annotation.MyCustomComponent;
-import com.java.springBoot.service.KafkaProducer;
+import com.java.springBoot.kafka.service.KafkaProducer;
 
 @RestController
 @MyCustomComponent
